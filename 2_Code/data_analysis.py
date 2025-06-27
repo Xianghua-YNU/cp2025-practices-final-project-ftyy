@@ -7,7 +7,7 @@ from astropy.constants import h, c, k_B
 from scipy.signal import savgol_filter
 
 # 读取 MARCS 模型光谱（单位：erg / (s cm² Å)）
-data = np.loadtxt('marcs_spectrum_teff8000_feh0_logg4.dat')
+data = np.loadtxt('3_Data/raw_date/marcs_spectrum_teff8000_feh0_logg4.dat')
 wavelength_all = data[:, 0]  # 单位：Å
 flux_all = data[:, 1]        # 单位：erg / (s cm² Å)
 
