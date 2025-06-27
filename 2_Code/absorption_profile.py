@@ -1,3 +1,8 @@
+"""
+利用玻尔兹曼模型生成的吸收线强度，可视化得到吸收线谱型
+数据利用的是data下的H*profile.txt
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import glob
@@ -33,4 +38,4 @@ plt.tight_layout(rect=[0, 0, 0.85, 1])  # 为图例留出空间
 
 # 显示或保存图形
 plt.show()
-#plt.savefig("normalized_spectra.png")  
+plt.savefig("normalized_spectra.png")  
