@@ -7,7 +7,7 @@
 - **absorption_profile.py:** 吸收线谱型可视化。负责读取main_simulation.py生成的吸收线强度的数据，生成谱型可视化结果。
 - **numerical_methods.py:** 核心算法。实现具体的数值方法，例如龙格-库塔法、Crank-Nicolson、Metropolis算法等。这个模块应该具有通用性，不依赖于特定的模拟场景。
 - **data_analysis.py:** 数据分析。存放用于处理 raw_data 的函数，例如计算平均值、误差、傅里叶变换、拟合曲线等。
-- **visualization.py:** 提取同一吸收线不同温度的等效宽度数据并绘制;
+- **visualization.py:** 提取同一吸收线不同温度的等效宽度数据并绘制;绘制不同方法计算7000K的Hβ吸收率谱以及绘制两种方法的吸收率的差值绝对值，并计算了差值绝对值最大值和平均值。
 - **requirements.txt :** 项目依赖。通过 pip freeze > requirements.txt 命令生成，确保任何人都可以在新环境中复现你们的计算环境。
 
   - 配置环境：运行pip install -r requirements.txt。
