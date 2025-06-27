@@ -37,7 +37,7 @@ plt.show()
 
 
 """
-2.绘制不同方法计算7000K的Hβ吸收率谱。红线是玻尔兹曼分布方法的谱，StellarSpecModel 恒星光谱模型工具的谱。第二部分绘图是绘制两种方法的吸收率的差值绝对值。
+2.绘制不同方法计算7000K的Hβ吸收率谱。红线是玻尔兹曼分布方法的谱，StellarSpecModel 恒星光谱模型工具的谱。第二部分绘图是绘制两种方法的吸收率的差值绝对值，并计算了差值绝对值最大值和平均值。
 """
 import numpy as np
 import matplotlib.pyplot as plt
