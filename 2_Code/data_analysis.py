@@ -1,5 +1,5 @@
 """
-使用 MARCS 模型光谱数据，计算有效宽度，并画出归一化光谱，以调整scale
+使用 MARCS 模型光谱数据，计算有效宽度，并画出归一化光谱，以调整scale，再计算等效宽度。
 """
 import numpy as np
 import matplotlib.pyplot as plt
