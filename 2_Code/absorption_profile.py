@@ -14,7 +14,7 @@ plt.xlabel("Wavelength")
 plt.ylabel("Normalized Intensity")
 
 # 获取所有txt文件（根据实际情况修改路径）
-file_list = glob.glob("H*profile.txt",)  # 假设所有txt文件在当前目录
+file_list = glob.glob("3_Data/raw_date/H*profile.txt",)  # 假设所有txt文件在当前目录
 
 # 处理每个文件
 for file in file_list:
